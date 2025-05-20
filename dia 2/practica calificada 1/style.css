@@ -1,0 +1,24 @@
+body {
+    background-image: url(fondo.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    color: rgb(204, 135, 89);
+}
+h2 {
+    color: rgb(219, 150, 45);
+}
+p {
+    text-align: justify;
+    color: rgb(105, 173, 185)
+}
+h3 {
+    color: rgb(99, 222, 238);
+}
+li {
+    color: rgb(67, 165, 230);
+}
