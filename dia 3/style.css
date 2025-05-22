@@ -1,0 +1,89 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.caja-maestra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    margin: 30px 10px 30px;
+    padding: 5px 10px;
+    border: solid 1px blue;
+}
+
+.caja-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+    margin: 30px 15px 15px 15px;
+    padding: 30px 20px 30px 10px;
+    border: solid 1px blue;
+}
+.caja-contenedor2 {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred;
+    margin: 30px 15px 15px 15px;
+    padding: 30px 20px 30px 15px;
+    border: solid 1px blue; */
+
+body {
+    height: 100vh;
+}
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blueviolet;
+}
+/* table {
+    border: solid 2px;
+    margin-left: 30px;
+    padding: 8px;
+    border-collapse: collapse;
+}
+thead th {
+    border-bottom: solid 2px;
+    padding: 4px;
+}
+
+tbody td {
+    border: solid 2px;
+    padding: 8px;
+} */
+
+#formulario {
+    background-color: white;
+    height: 300px;
+    width: 230px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px
+
+}
+/* p {
+    margin-right:  110px;
+} */
+
+.contenedor-p {
+    display: flex;
+    gap: 90px;
+}
+
+.contenerod-imput {
+    display: flex;
+    gap: 10px;
+}
+
+.input {
+    width: 100px;
+}
