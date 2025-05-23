@@ -1,0 +1,57 @@
+/* Hoy es 23/5/2025, el dia de mañana y demas dias voy a prestar
+mas atencion y hacer menos al mismo tiempo, me pierdo de cosas,
+no me esta saliendo desde las 18 hs... */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+#formulario{
+    height: 800px;
+    width: 430px;
+    background-image: url(https://media.istockphoto.com/id/1456257296/es/foto/negro-p%C3%BArpura-violeta-azul-magenta-rosa-fondo-abstracto-ne%C3%B3n-degradado-de-color.jpg?s=170667a&w=0&k=20&c=yEG1QPWKMC3grwQkzo0wMCpncHDSmhroMbMS10WuCcg=);
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+    padding-top: 60px;
+    border: solid 1px violet;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.encabezado{
+    height: 35%;
+    width: 100%;
+
+}
+.loguin{
+
+}
+.permanecer{
+    display: flex;
+    gap: 10px
+}
+.registro-loguin{
+
+}
+.join{
+    display: flex;
+
+}

@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: solid 1px red; */
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.lanacion.com.ar/resizer/v2/detetive-N4FQSMTPGBGVNPWBNRXUF5YKSU.jpg?auth=125532c32ee35b06cff2857ac1e0e5acbcd4a4d952fed1d735745f162bba8fa7&width=420&height=280&quality=70&smart=true);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formulario {
+    /* border: solid 1px red; */
+    height: 300px;
+    width: 380px;
+    background-image: url("https://images-cdn.ubuy.ae/65668e7995f7960eb1623bd6-funko-pokemon-pikachu-sticker.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+    padding-top: 60px;
+}
+.hijo-mayor {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.segundo-hijo {
+    /* border: solid 1px red; */
+    display: flex;
+    gap: 10px;
+    margin-top: 4px;
+}
+.tercer-hijo {
+    /* border: solid 1px red; */
+    display: flex;
+    gap: 5px;
+    margin-top: 7px;
+}
+.correo {
+    /* border: solid 1px red; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.año {
+    /* border: solid 1px red; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.parrafo-año{
+    width: 200px;
+}
+.imput-correo {
+    width: 230%;
+}
+.ultimo-hijo {
+    /* border: solid 1px red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    background-color: goldenrod;
+}
