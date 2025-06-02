@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./stayl.css">
+    <title>Document</title>
+</head>
+<body class="w-full h-screen">
+    <header
+        class="flex-grow p-4 space-y-4  shadow-xs m-2 dark:bg-slate-500 dark:border-slate-500"
+    >
+        <nav
+            class="flex w-full justify-between items-center p-4 rounded-2xl px-5 py-2"
+        >
+            <button
+                class="cursor-pointer text-white py-3 rounded-2xl w-full max-w-[640px] hover:text-white active:bg-amber-100 active:text-black order-2"
+            >
+                <svg
+                    class="w-7 h-7"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                >
+                    <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-width="2"
+                        d="M5 7h14M5 12h14M5 17h14"
+                    />
+                </svg>
+            </button>
+            <ul
+                class="hidden md:flex md:gap-3 md:order-2 2xl:gap-8"
+            >
+                <li
+                    class="cursor-pointer hover:bg-white active:bg-amber-100 active:text-black p-3 rounded-2xl"
+                >
+                    Acerca de Mi
+                </li>
+                <li
+                    class="cursor-pointer hover:bg-white active:bg-amber-100 active:text-black p-3 rounded-2xl"
+                >
+                    Habilidades
+                </li>
+                <li
+                    class="cursor-pointer hover:bg-white active:bg-amber-100 active:text-black p-3 rounded-2xl"
+                >
+                    Proyectos
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main class="flex-grow p-4 space-y-4  shadow-xs m-2 dark:bg-slate-500 dark:border-slate-500">
+        <div class="w-full p-7">
+            <div class=" bg-gray-400 overflow-hidden object-cover object-center w-64 h-64 rounded-xl mx-auto">
+                <img src="./img/img/487073621_18464593327069981_8869738905176982142_n.webp" 
+                alt=""
+                class="object-center object-cover w-full">
+                
+            </div>
+            <div>
+            <H1 class="p-7 h-7 ">Quien soy?</H1>
+            <p>Mi nombre es Pablo Palacio, soy un estudiante de programación en la academiade Funval.
+                A lo largo del curso voy descubriendo nuevas habilidades y redescubriendome a mi mismo, esto desperto en mi un amor a lo desconocido de la progracmación.
+                Tengo 33 años de edad y si algo me caraceriza es que me gusta el animé y que trato de subir siempre de nivel.
+            </p>
+            </div>
+            <div class="w-full max-w-sm mx-auto rounded-xlh-5 p-5 flex flex-col-2 justify-center gap-4"> Experiencia laboral:
+                <div class="h-[30%]">1-3 Años
+                <img src="data:image/png;base64,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" alt="">
+                </div>
+                <div class="h-[30%] ">1 Año
+                <img src="data:image/png;base64,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" alt="">
+                </div>
+                <div class="h-[30%]">3-4 Años
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3U_C65FtD61vm6xhBgoKbe8PeH3rdWyRMFA&s" alt="">
+                </div>
+                <ul class="hiden flex justify-center md:flex md:gap-3 md:order-2">
+                <li class="cursor-pointer hover:bg-white  active:bg-amber-100 active:text-black  p-3 rounded-2xl">Mi CV</li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    <!-- <div class="h-5 p-5 flex justify-center gap-4">
+                <ul class="hiden flex justify-center md:flex md:gap-3 md:order-2">
+                <li class="cursor-pointer hover:bg-white  active:bg-amber-100 active:text-black  p-3 rounded-2xl">asd</li>
+                </ul> -->
+    <a href="https://pablopalacio.github.io/Funval-G3/" target="_blank" rel="noopener noreferrer">
+  <button class="border border-gray-200 shadow-xs m-2 cursor-pointer text-white py-3 px-4 bg-black rounded-2xl hover:bg-gray-800">
+    GitHub
+  </button>
+</a>
+<footer class=" shadow-xs m-2 bg-gray-800 text-white py-10 mt-10">
+  <div class="max-w-2xl mx-auto px-4">
+    <h2 class="text-xl font-bold mb-4">Contáctame</h2>
+    <form class="space-y-4">
+      <input type="text" placeholder="Nombre" class="w-full p-3 rounded bg-gray-700 text-white placeholder-gray-400 focus:outline-none">
+      <input type="email" placeholder="Correo" class="w-full p-3 rounded bg-gray-700 text-white placeholder-gray-400 focus:outline-none">
+      <textarea placeholder="Mensaje" rows="4" class="w-full p-3 rounded bg-gray-700 text-white placeholder-gray-400 focus:outline-none"></textarea>
+      <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">Enviar</button>
+    </form>
+  </div>
+</footer>
+</body>
+
+</html>

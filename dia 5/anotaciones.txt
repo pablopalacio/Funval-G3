@@ -1,0 +1,71 @@
+a cada div le puedo dar una clases infinitas, eso me permite modificar
+lodos los div de manera general y al darle otra clase puedo modificar individualmente.
+
+posiciones
+static (no se puede ocupar, top,left, botom,rigth)
+(es el valor que tiene por defecto todas las cajas)
+relative ( si se puede hacer uso de top, left, botom y right)
+cuando movemos de posicion el elementeo, el espacio que dejamos
+no se rellena de forma automatica, es como si el elemento estuviera ahi.
+
+absolute (busca a su padre directo) si su padre directo no tiene relativ
+va a buscar a su siguiente padre, si este no tiene relativ, va a seguir hasta llegar al body.
+los elementos que damos de posicion, hacen referencia a la posicion del padre, no a la posicion 
+original de el.
+la psosicion del padre que tenga relativ determina la posicion de la caja.
+
+fixed
+stiked
+
+/* z-index ( siempre trabajarlo con numeros de 10 en 10)
+nos permite decidir que elemento esta adelante o tras */
+le damos un valor aleatorio y queda adelante.
+lo segundo es elementos que tenga position definida
+elementoue tenga una posicion no definida.
+
+
+cada caja puedo modificarla con top. left,bottom, rigth.
+
+
+
+flex direction colum, apila en columnas
+flex uno alado del otro
+flex warp nos permite que tengan su tamaño original pero modifica el al contenedor ( si no le hemos establecido el ancho y el alto)
+
+
+!"#!"$ etiketas nuevas !!"#!"$!"4
+
+header, main, foter.
+
+header  puede tener h1 por ejemplo el titulo
+	nav ( se utiliza para barras de navegacion)
+	stiki (pegajoso) xq nuestro elemento se pega
+	
+
+flex box
+display felx nos permite a nosotros organizar la estructura de nuestro
+contenedor con flex direction y tambien con wrap que acomoda los elementos
+en el espacio del padre y si se queda sin espacio los apila hacia abajo.
+
+la segunda razon por la cual nos itereasa trabajar con flex es para alinear
+los elementos al centro en relacion al padre
+
+aline intems center* alinea los elementos de arriba para abajo
+justify conten center  * que se encarga de modificar los elementos de 
+izquiera a derecha con relacion al contenedor padre.
+
+la tercera razon es el orden de los elementos
+html tiene un orden especifico de los elementos.
+
+la cuarta razon es la responsividad
+trabajar con flex hace que los elementos se vayan modificando segun 
+las pantallas
+
+
+windosw shif s para copiar.
+
+media queris * solo se activa cuando se dan ciertas condiciones
+@media 
+
+
+
