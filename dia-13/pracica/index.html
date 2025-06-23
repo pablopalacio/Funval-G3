@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="./main.js" defer></script>
+  <title>Simulador de Cuenta Bancaria</title>
+  
+</head>
+<body>
+  <div class="container">
+    <h1>🏦 Simulador Del Banco</h1>
+
+    <div class="form-group">
+      <input type="number" id="monto" placeholder="Ingrese monto" />
+    </div>
+
+    <div class="buttons">
+      <button onclick="depositar()">Ingresar Dinero</button>
+      <button onclick="retirar()">Retirar Dinero</button>
+      <button onclick="mostrarSaldo()">Consultar Saldo</button>
+      <button onclick="mostrarHistorial()">Ver Historial</button>
+    </div>
+
+    <div id="resultado" class="resultado"></div>
+    <div id="historial" class="historial"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
